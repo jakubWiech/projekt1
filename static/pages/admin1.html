@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        }
+
+        body {
+        font-family: Calibri;
+        font-size: 20px;
+        }
+
+        .title {
+        font-size: 100px;
+        color: #cccccc;
+        }
+
+        .main {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .navbar {
+        width: 100vw;
+        height: 50px;
+        overflow: hidden;
+        color: white;
+        }
+
+        .navelement {
+        text-align: center;
+        float: left;
+        padding: 10px;
+        text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+            color : white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar" style="background-color: peru;">
+            <div class="navelement"><a href="main">main</a></div>
+            <div class="navelement"><a href="register">register</a></div>
+            <div class="navelement"><a href="login">login</a></div>
+            <div class="navelement"><a href="admin">admin</a></div>
+        </div>
+        <div class="title">Brak dostępu, zaloguj się</div>
+    </div>
+</body>
+</html>
